@@ -19,11 +19,11 @@ struct ContentView: View {
             HStack {
 
                 Button("left button") {
-                    self.viewModel.incrementLeftButtonTaps()
+                    viewModel.incrementLeftButtonTaps()
                 }
                 .buttonStyle(BlueButton())
                 Button("right button") {
-                    self.viewModel.incrementRightButtonTaps()
+                    viewModel.incrementRightButtonTaps()
                 }
                 .buttonStyle(BlueButton())
 
