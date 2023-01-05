@@ -33,31 +33,6 @@ struct ContentView: View {
     }
 }
 
-struct BlueButton: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .padding()
-            .background(.blue)
-            .foregroundColor(.white)
-            .clipShape(Capsule())
-    }
-}
-
-class ButtonsViewModel: ObservableObject {
-    @Published var leftButtonTaps = 0
-    @Published var rightButtonTaps = 0
-
-    func incrementLeftButtonTaps() {
-        leftButtonTaps += 1
-        print("left: \(leftButtonTaps)")
-    }
-
-    func incrementRightButtonTaps() {
-        rightButtonTaps += 1
-        print("right: \(rightButtonTaps)")
-    }
-}
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(viewModel: ButtonsViewModel())
