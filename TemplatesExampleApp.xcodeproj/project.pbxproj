@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A70BC036296716F400445ED5 /* BlueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70BC035296716F400445ED5 /* BlueButton.swift */; };
 		A70BC0382967171A00445ED5 /* ButtonsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70BC0372967171A00445ED5 /* ButtonsViewModel.swift */; };
-		A727136E29646EA5006EB6A6 /* TemplatesExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A727136D29646EA5006EB6A6 /* TemplatesExampleAppApp.swift */; };
+		A727136E29646EA5006EB6A6 /* TemplatesExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A727136D29646EA5006EB6A6 /* TemplatesExampleApp.swift */; };
 		A727137029646EA5006EB6A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A727136F29646EA5006EB6A6 /* ContentView.swift */; };
 		A727137229646EA7006EB6A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A727137129646EA7006EB6A6 /* Assets.xcassets */; };
 		A727137529646EA7006EB6A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A727137429646EA7006EB6A6 /* Preview Assets.xcassets */; };
@@ -19,7 +19,7 @@
 		A70BC035296716F400445ED5 /* BlueButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueButton.swift; sourceTree = "<group>"; };
 		A70BC0372967171A00445ED5 /* ButtonsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsViewModel.swift; sourceTree = "<group>"; };
 		A727136A29646EA5006EB6A6 /* TemplatesExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplatesExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A727136D29646EA5006EB6A6 /* TemplatesExampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesExampleAppApp.swift; sourceTree = "<group>"; };
+		A727136D29646EA5006EB6A6 /* TemplatesExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesExampleApp.swift; sourceTree = "<group>"; };
 		A727136F29646EA5006EB6A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A727137129646EA7006EB6A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A727137429646EA7006EB6A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		A727136C29646EA5006EB6A6 /* TemplatesExampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				A727136D29646EA5006EB6A6 /* TemplatesExampleAppApp.swift */,
+				A727136D29646EA5006EB6A6 /* TemplatesExampleApp.swift */,
 				A727136F29646EA5006EB6A6 /* ContentView.swift */,
 				A727137129646EA7006EB6A6 /* Assets.xcassets */,
 				A727137329646EA7006EB6A6 /* Preview Content */,
@@ -145,7 +145,7 @@
 			files = (
 				A70BC0382967171A00445ED5 /* ButtonsViewModel.swift in Sources */,
 				A727137029646EA5006EB6A6 /* ContentView.swift in Sources */,
-				A727136E29646EA5006EB6A6 /* TemplatesExampleAppApp.swift in Sources */,
+				A727136E29646EA5006EB6A6 /* TemplatesExampleApp.swift in Sources */,
 				A70BC036296716F400445ED5 /* BlueButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject var viewModel: ButtonsViewModel
+    @ObservedObject var viewModel: ButtonsViewModel = ButtonsViewModel()
 
     var body: some View {
         VStack {
